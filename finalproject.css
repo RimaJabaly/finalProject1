@@ -48,8 +48,8 @@ body{
 }
 
 .photo{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     position: relative;
     top: 20px;
     left: 1%;
@@ -61,8 +61,8 @@ body{
     height: 70px;
     width: 200px;
     position: relative;
-    top: 50px;
-    left: 3%;
+    top: 30px;
+    left: 5%;
     box-shadow: 3px 3px 10px #949494;
 }
 .pdf{
@@ -88,3 +88,80 @@ body{
     top: 24px;
     left: 29px;
 }
+
+.photo3{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+h5{
+    position: relative;
+    top: 0px;
+    left: 130px;
+}
+
+.text1{
+    position: relative;
+    top: -430px;
+    right:-28%;
+}
+.text2{
+    position: relative;
+    top: -490px;
+    right:-34%;
+    color: rgb(120, 157, 216);
+}
+.text3{
+    position: relative;
+    top: -505px;
+    left:500px;
+    color: rgb(135, 135, 135);
+}
+.text4{
+    position: relative;
+    top: -505px;
+    left:500px;
+    color: rgb(109, 109, 109);
+    text-align: justify;
+    vertical-align: baseline;
+}
+
+.six h5{
+    vertical-align: auto;
+    position: relative;
+    top: -505px;
+    left:500px;
+    color: #b7b7b7;
+}
+.seven h5{
+    vertical-align: auto;
+    position: relative;
+    top: -615px;
+    left:700px;
+    color: rgb(109, 109, 109);
+}
+.eight h5{
+    vertical-align: auto;
+    position: relative;
+    top: 209px;
+    left:1000px;
+    color: #b7b7b7;
+}
+
+.nine h5{
+    vertical-align: auto;
+    position: relative;
+    top: 98px;
+    left:1200px;
+    color: rgb(109, 109, 109);
+}
+.ten h3{
+    vertical-align: auto;
+    position: relative;
+    top: 98px;
+    left:510px;
+    color: #b7b7b7;
+}
+
