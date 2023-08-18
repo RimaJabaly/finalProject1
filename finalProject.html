@@ -24,8 +24,47 @@
             <div class="two">
             <img src="IMG_5773 3.png" class="photo">
             </div>
+            <div class="three">
+                
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+                    <script>
+                     function  generatePDF(){
+                        const element= document.getElementById("invoice");
+
+                        html2pdf()
+                        .from(element)
+                        .save();
+                     }
+                    </script>
+                </head>
+                <body>
+                    <div id="invoice">
+                    <img src="Download_alt_font_awesome.svg.png" class="photo2">
+                    <button onclick="generatePDF()" class="button"> Download Resume </button>
+                </div>
+                </body>
+                </html>
+                
+            </div>
              
         </div>
+
+
+
+
+
+
+
+
+
+
+        
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
        <br><br><br><br><br><br><br><br><br><br>
         <div id="skills" style="padding-left: 16px; height: 900px; background-color: blue;">
