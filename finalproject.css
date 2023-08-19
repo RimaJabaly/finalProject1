@@ -191,9 +191,38 @@ h5{
 .professional{
     height: 50px; width: 200px; background: #2196F3 ;  position: relative;
             top: -20px;
-            left: 250px; color: rgb(255, 255, 255); text-align: center; padding: 15px;
+            left: 260px; color: rgb(255, 255, 255); text-align: center; padding: 15px;
+}
+.professional2{
+    height: 50px; width: 200px; background: #2196F3 ;  position: relative;
+            top: -20px;
+            left: 280px; color: rgb(255, 255, 255); text-align: center; padding: 15px;
 }
 
+.circle{
+    width: 160px;
+    height: 160px;
+    /* background: #2196F3; */
+    position: relative;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                      -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                      0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                      0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
 #block_container {
     display: flex;
     justify-content: center;
@@ -201,11 +230,31 @@ h5{
 
   .eleven{
     position: relative;
-    top: 98px;
-    left:1000px;
+    top: -43px;
+    left:740px;
   }
-  .twelve{
+  .eleven1{
     position: relative;
-    top: -45px;
-    left: -480px;
+    top: 90px;
+    left:530px;
+  }
+  .eleven2{
+    position: relative;
+    top: 45px;
+    left:600px;
+  }
+  .eleven3{
+    position: relative;
+    top: 2px;
+    left:670px;
+  }
+  .eleven4{
+    position: relative;
+    top: -86px;
+    left:810px;
+  }
+  .eleven5{
+    position: relative;
+    top: -130px;
+    left:875px;
   }
