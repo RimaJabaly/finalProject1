@@ -165,9 +165,67 @@
 
                    <div class="circle">
                      <div class="outer">
-                        <div class="inner"></div>
+                        <div class="inner">
+                            <div id="number">
+                               
+                            </div>
+                        </div>
                      </div>
+<h4 style="position: relative;
+left: 30%;">English</h4>
+                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                           <linearGradient id="GradientColor">
+                              <stop offset="0%" stop-color="#2196F3" />
+                              <stop offset="100%" stop-color="#673ab7" />
+                           </linearGradient>
+                        </defs>
+                        <circle id="circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
                    </div>
+
+                   <div class="circle2">
+                    <div class="outer2">
+                       <div class="inner2">
+                           <div id="number2">
+                              
+                           </div>
+                       </div>
+                    </div>
+                    <h4 style="position: relative;
+                    left: 23%;">Photography</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                       <defs>
+                          <linearGradient id="GradientColor2">
+                             <stop offset="0%" stop-color="#2196F3" />
+                             <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                       </defs>
+                       <circle id="circle2" cx="80" cy="80" r="70" stroke-linecap="round" />
+               </svg>
+                  </div>
+
+
+                  <div class="circle3">
+                    <div class="outer3">
+                       <div class="inner3">
+                           <div id="number3">
+                              
+                           </div>
+                       </div>
+                    </div>
+                    <h4 style="position: relative;
+                    left: 30%;">Designing</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                       <defs>
+                          <linearGradient id="GradientColor3">
+                             <stop offset="0%" stop-color="#2196F3" />
+                             <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                       </defs>
+                       <circle id="circle3" cx="80" cy="80" r="70" stroke-linecap="round" />
+               </svg>
+                  </div>
             </div>
 
         </div>
@@ -195,5 +253,48 @@
                             <h2>Top navigation example</h2>
                             <p>Some content..</p>
                             </div>
+
+<script>
+let number =document.getElementById("number")
+let counter=0;
+setInterval(()=>{
+    if(counter==65){
+        clearInterval();
+    }else{
+        counter+=1;
+    number.innerHTML=counter+"%";
+    }
+  
+},30)
+ </script>
+
+<script>
+    let number2 =document.getElementById("number2")
+    let counter2=0;
+    setInterval(()=>{
+        if(counter2==30){
+            clearInterval();
+        }else{
+            counter2+=1;
+        number2.innerHTML=counter2+"%";
+        }
+      
+    },30)
+     </script>
+
+
+<script>
+    let number3 =document.getElementById("number3")
+    let counter3=0;
+    setInterval(()=>{
+        if(counter3==50){
+            clearInterval();
+        }else{
+            counter3+=1;
+        number3.innerHTML=counter3+"%";
+        }
+      
+    },30)
+     </script>
 </body>
 </html>

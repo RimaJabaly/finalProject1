@@ -217,12 +217,140 @@ h5{
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
                       -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
                       -0.5px -0.5px 0px rgba(255, 255, 255, 1),
                       0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
                       0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
+
+#number{
+    font-weight:600 ;
+    color: #555;
+}
+#circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+svg{
+position: absolute;
+top: 0;
+left: 0;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 165;
+    }
+}
+
+
+.circle2{
+    width: 160px;
+    height: 160px;
+    /* background: #2196F3; */
+    position: relative;
+    left: 37%;
+    top: -32%;
+}
+.outer2{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                      -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                      0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                      0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+#number2{
+    font-weight:600 ;
+    color: #555;
+}
+#circle2{
+    fill: none;
+    stroke: url(#GradientColor2);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 330;
+    }
+}
+
+
+
+
+
+
+.circle3{
+    width: 160px;
+    height: 160px;
+    /* background: #2196F3; */
+    position: relative;
+    left: 75%;
+    top: -65%;
+}
+.outer3{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner3{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                      -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                      0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                      0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+#number3{
+    font-weight:600 ;
+    color: #555;
+}
+#circle3{
+    fill: none;
+    stroke: url(#GradientColor3);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 236;
+    }
+}
+
+
 #block_container {
     display: flex;
     justify-content: center;
