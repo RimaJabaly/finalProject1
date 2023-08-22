@@ -515,3 +515,31 @@ table thead tr th{
 color: #ffffff;
 font-size: small;
 }
+
+
+
+  .filterDivv {
+    
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin-left: 45px;
+ display: inline-block;
+ box-shadow: 3px 3px 10px #949494;
+  }
+
+
+  .input{
+    position: relative;
+    left: 39%;
+    text-align: center;
+border-radius: 10px;
+border-style: hidden;
+height: 25px;
+width: 400px;
+    color: #616161;
+  }
+  
